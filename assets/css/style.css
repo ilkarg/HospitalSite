@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+/*Font*/
+@font-face {
+  font-family: "Oswald", sans-serif;
+  src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+
+body {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 0px 0px;
+}
+
+.nav-item:hover {
+  background-color: #428af5;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #002e63 !important;
+}
+
+.slide1 img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.col-md-6 img {
+  border-radius: 10px;
+}
+
+.service-item a {
+  text-decoration: none;
+}
+
+.col-md-6 img {
+  width: 80%;
+  overflow: hidden;
+  border: 10px solid white;
+  border-radius: 100%;
+}
+
+.service-item h4 {
+  color: #04f;
+  font-size: 25px;
+}
+
+.tit2 {
+  font-size: 30px;
+  line-height: 1.2;
+  color: #07f;
+}
+
+.tit3 {
+  font-size: 30px;
+  line-height: 1.2;
+  color: #09f;
+}
+
+.txt4 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.txt4:hover {
+  color: black;
+}
+
+.txt9 {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+
+.txt10 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #06f;
+}
+
+.section-booking {
+  background-image: url(../img/13.jpg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background-color: #001a38;
+  color: white;
+  padding-top: 30px;
+}
+
+.footer-copyright {
+  background-color: #000a14;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+.footer .navbar-brand {
+  margin-top: 45px;
+  height: 65px;
+}
+
+.footer .footer-copyright p {
+  margin: 10px;
+  color: white;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+.footer h5 {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.footer li a {
+  line-height: 1.8;
+  font-size: 20px;
+  text-align: center;
+  color: #d1d1d1;
+}
+
+.footer a {
+  color: #d2d1d1;
+  text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .social-networks {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
+.footer .social-networks a {
+  font-size: 32px;
+  color: #f9f9f9;
+  padding: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.footer .social-networks a:hover {
+  text-decoration: none;
+}
+
+.footer .facebook:hover {
+  color: #0077e2;
+}
+
+.footer .google:hover {
+  color: #ef1a1a;
+}
+
+.footer .twitter:hover {
+  color: #00aced;
+}
+
+.footer .btn {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+.form-login {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  max-width: 350px !important;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 50px #fff;
+}
+
+.form-login h1 {
+  color: #236af7;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.login-input {
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.login-input label {
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.login-input input {
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #236af7 !important;
+  border: none;
+  height: 40px;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  transition: .3s ease;
+  border-radius: 8px;
+}
+
+.login-input input::placeholder {
+  color: #494949;
+  font-size: 14px;
+}
+
+.login-input input:focus {
+  box-shadow: 0px 0px 10px #23b4f7;
+}
+
+.title-login,
+.title-password {
+  width: 100%;
+}
+
+.btn {
+  color: #fff !important;
+  background-color: #236af7 !important;
+  font-size: 16px;
+  width: 200px;
+  margin: 10px auto;
+  box-shadow: none !important;
+  transition: .3s ease;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 10px #8edbff !important;
+}
+
+.btn-login a {
+  color: #236af7 !important;
+  font-size: 16px;
+  width: 100% !important;
+  display: block;
+}
+
+.form-login {
+  position: absolute;
+  top: 22%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  max-width: 350px !important;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 50px #fff;
+}
+
+.gooey {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  filter: contrast(20);
+  z-index: 5;
+}
+
+.loader-dots {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 15%;
+  margin: 0 auto;
+}
+
+.dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 15px;
+  filter: blur(4px);
+  color: #236af7;
+  background: #236af7;
+  border-radius: 50%;
+  transform: translateX(0);
+  animation: dot 2.8s infinite;
+}
+
+.dots {
+  transform: translateX(0);
+  margin-top: 12px;
+  margin-left: 31px;
+  animation: dots 2.8s infinite;
+}
+
+@-webkit-keyframes dot {
+  50% {
+    -webkit-transform: translateX(96px);
+    transform: translateX(96px);
+  }
+}
+
+@keyframes dot {
+  50% {
+    -webkit-transform: translateX(96px);
+    transform: translateX(96px);
+  }
+}
+
+@-webkit-keyframes dots {
+  50% {
+    -webkit-transform: translateX(-31px);
+    transform: translateX(-31px);
+  }
+}
+
+@keyframes dots {
+  50% {
+    -webkit-transform: translateX(-31px);
+    transform: translateX(-31px);
+  }
+}
+
+.loaded_hiding .gooey {
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+  opacity: 0
+}
+
+.loaded .gooey {
+  display: none
+}
+
+.hidden {
+  display: none
+}
+
+#appointment-phone::-webkit-outer-spin-button,
+#appointment-phone::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#appointment-phone {
+  -moz-appearance: textfield;
+}
+
+.appointments {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
